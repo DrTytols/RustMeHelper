@@ -1,0 +1,135 @@
+* {
+    gap: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: H;
+    src: url('./FreckleFace-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: PressStart;
+    src: url('./PressStart2P-Regular.ttf') format('truetype');
+}
+
+body {
+    width: auto;
+    height: auto;
+    background-image: url('./image.png');
+    background-size: contain;
+    background-position-y: 40px;
+}
+
+& header {
+    height: 100px;
+    background-color: #090909;
+
+    .headerpng {
+        transform: scale(1, -1) translateY(-80px);
+        width: 100%;
+    }
+
+    .logo {
+        transform: translateY(-70px);
+        margin-left: 100px;
+    }
+
+    .logoimg {
+        height: 100px;
+    }
+
+    .logotxt {
+        transform: translateY(-10px);
+        color: rgb(224, 20, 1);
+        font-family: H;
+        font-size: 20px;
+    }
+}
+
+& main {
+    height: 1900px;
+
+    .hazmat {
+        transform: translateY(-70px) translateX(130px);
+        height: 700px;
+    }
+
+
+
+
+
+    .disclaimer {
+        display: flex;
+
+        & p {
+            font-family: PressStart;
+            font-size: 25px;
+            color: #ffffff;
+            height: fit-content;
+            width: 500px;
+            transform: translate(150px, 70px);
+            background-color: rgba(80, 80, 80, 0.674);
+            padding: 30px;
+            border-radius: 20px;
+
+            & a {
+                color: #ffffff;
+            }
+        }
+    }
+
+    .bottom-transition {
+        transform: translateY(-130px);
+        width: 100%;
+    }
+
+    .symbols {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url('./index-2.f7399540.webp');
+        transform: translateY(-180px);
+        padding: 80px;
+
+        .tutor {
+            font-family: PressStart;
+            font-size: 25px;
+            color: #ffffff;
+            height: fit-content;
+            width: 500px;
+            transform: translate(0px, 0px);
+            background-color: rgba(80, 80, 80, 0.674);
+            padding: 30px;
+            border-radius: 20px;
+
+            & a {
+                color: #ffffff;
+            }
+        }
+
+        .tablet {
+            border-radius: 20px;
+        }
+    }
+
+    .raid-calculator {
+        transform: translateY(-180px);
+        background-image: url('./2025-07-02_04.13.44.png');
+        padding: 420px;
+        justify-items: center;
+
+        & h1 {
+            font-family: PressStart;
+            font-size: 60px;
+            color: #ffffff;
+            height: fit-content;
+            width: fit-content;
+            transform: translate(0px, 0px);
+            background-color: rgba(80, 80, 80, 0.674);
+            padding: 30px;
+            border-radius: 20px;
+        }
+    }
+}
