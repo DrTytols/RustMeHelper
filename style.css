@@ -14,6 +14,11 @@
     src: url('./PressStart2P-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: Minecraft;
+    src: url('./Minecraft Rus NEW.otf') format('truetype');
+}
+
 body {
     width: auto;
     height: auto;
@@ -64,7 +69,7 @@ body {
         display: flex;
 
         & p {
-            font-family: PressStart;
+            font-family: Minecraft;
             font-size: 25px;
             color: #ffffff;
             height: fit-content;
@@ -94,7 +99,7 @@ body {
         padding: 80px;
 
         .tutor {
-            font-family: PressStart;
+            font-family: Minecraft;
             font-size: 25px;
             color: #ffffff;
             height: fit-content;
@@ -121,7 +126,7 @@ body {
         justify-items: center;
 
         & h1 {
-            font-family: PressStart;
+            font-family: Minecraft;
             font-size: 60px;
             color: #ffffff;
             height: fit-content;
@@ -132,4 +137,5 @@ body {
             border-radius: 20px;
         }
     }
+
 }
